@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A66F29E919C1CCEF004AE69D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A66F29E819C1CCEF004AE69D /* Foundation.framework */; };
+		A66F29EB19C1CCEF004AE69D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A66F29EA19C1CCEF004AE69D /* CoreGraphics.framework */; };
+		A66F29ED19C1CCEF004AE69D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A66F29EC19C1CCEF004AE69D /* UIKit.framework */; };
+		A66F29F319C1CCEF004AE69D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A66F29F119C1CCEF004AE69D /* InfoPlist.strings */; };
+		A66F29F519C1CCEF004AE69D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A66F29F419C1CCEF004AE69D /* main.m */; };
+		A66F29F919C1CCEF004AE69D /* JMHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A66F29F819C1CCEF004AE69D /* JMHAppDelegate.m */; };
+		A66F29FC19C1CCEF004AE69D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A66F29FA19C1CCEF004AE69D /* Main.storyboard */; };
+		A66F29FF19C1CCEF004AE69D /* JMHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A66F29FE19C1CCEF004AE69D /* JMHViewController.m */; };
+		A66F2A0119C1CCEF004AE69D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A66F2A0019C1CCEF004AE69D /* Images.xcassets */; };
+		A66F2A0819C1CCEF004AE69D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A66F2A0719C1CCEF004AE69D /* XCTest.framework */; };
+		A66F2A0919C1CCEF004AE69D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A66F29E819C1CCEF004AE69D /* Foundation.framework */; };
+		A66F2A0A19C1CCEF004AE69D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A66F29EC19C1CCEF004AE69D /* UIKit.framework */; };
+		A66F2A1219C1CCEF004AE69D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A66F2A1019C1CCEF004AE69D /* InfoPlist.strings */; };
+		A66F2A1419C1CCEF004AE69D /* JMHMainProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A66F2A1319C1CCEF004AE69D /* JMHMainProjectTests.m */; };
+		A66F2A5D19C1CDD2004AE69D /* JMHName.m in Sources */ = {isa = PBXBuildFile; fileRef = A66F2A5C19C1CDD2004AE69D /* JMHName.m */; };
+		A66F2A6119C1D0EC004AE69D /* libJMHSubProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A66F2A5519C1CD4F004AE69D /* libJMHSubProject.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A66F2A0B19C1CCEF004AE69D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A66F29DD19C1CCEF004AE69D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A66F29E419C1CCEF004AE69D;
+			remoteInfo = JMHMainProject;
+		};
+		A66F2A5419C1CD4F004AE69D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A66F2A4F19C1CD4E004AE69D /* JMHSubProject.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A66F2A2619C1CD4E004AE69D;
+			remoteInfo = JMHSubProject;
+		};
+		A66F2A5619C1CD4F004AE69D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A66F2A4F19C1CD4E004AE69D /* JMHSubProject.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A66F2A3619C1CD4E004AE69D;
+			remoteInfo = JMHSubProjectTests;
+		};
+		A66F2A5F19C1D0E6004AE69D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A66F2A4F19C1CD4E004AE69D /* JMHSubProject.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A66F2A2519C1CD4E004AE69D;
+			remoteInfo = JMHSubProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A66F29E519C1CCEF004AE69D /* JMHMainProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JMHMainProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A66F29E819C1CCEF004AE69D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A66F29EA19C1CCEF004AE69D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A66F29EC19C1CCEF004AE69D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A66F29F019C1CCEF004AE69D /* JMHMainProject-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JMHMainProject-Info.plist"; sourceTree = "<group>"; };
+		A66F29F219C1CCEF004AE69D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A66F29F419C1CCEF004AE69D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A66F29F619C1CCEF004AE69D /* JMHMainProject-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JMHMainProject-Prefix.pch"; sourceTree = "<group>"; };
+		A66F29F719C1CCEF004AE69D /* JMHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMHAppDelegate.h; sourceTree = "<group>"; };
+		A66F29F819C1CCEF004AE69D /* JMHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMHAppDelegate.m; sourceTree = "<group>"; };
+		A66F29FB19C1CCEF004AE69D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A66F29FD19C1CCEF004AE69D /* JMHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMHViewController.h; sourceTree = "<group>"; };
+		A66F29FE19C1CCEF004AE69D /* JMHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMHViewController.m; sourceTree = "<group>"; };
+		A66F2A0019C1CCEF004AE69D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A66F2A0619C1CCEF004AE69D /* JMHMainProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JMHMainProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A66F2A0719C1CCEF004AE69D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A66F2A0F19C1CCEF004AE69D /* JMHMainProjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JMHMainProjectTests-Info.plist"; sourceTree = "<group>"; };
+		A66F2A1119C1CCEF004AE69D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A66F2A1319C1CCEF004AE69D /* JMHMainProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMHMainProjectTests.m; sourceTree = "<group>"; };
+		A66F2A4F19C1CD4E004AE69D /* JMHSubProject.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = JMHSubProject.xcodeproj; path = JMHSubProject/JMHSubProject.xcodeproj; sourceTree = "<group>"; };
+		A66F2A5B19C1CDD2004AE69D /* JMHName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMHName.h; sourceTree = "<group>"; };
+		A66F2A5C19C1CDD2004AE69D /* JMHName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMHName.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A66F29E219C1CCEF004AE69D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A66F2A6119C1D0EC004AE69D /* libJMHSubProject.a in Frameworks */,
+				A66F29EB19C1CCEF004AE69D /* CoreGraphics.framework in Frameworks */,
+				A66F29ED19C1CCEF004AE69D /* UIKit.framework in Frameworks */,
+				A66F29E919C1CCEF004AE69D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A66F2A0319C1CCEF004AE69D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A66F2A0819C1CCEF004AE69D /* XCTest.framework in Frameworks */,
+				A66F2A0A19C1CCEF004AE69D /* UIKit.framework in Frameworks */,
+				A66F2A0919C1CCEF004AE69D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A66F29DC19C1CCEF004AE69D = {
+			isa = PBXGroup;
+			children = (
+				A66F2A4F19C1CD4E004AE69D /* JMHSubProject.xcodeproj */,
+				A66F29EE19C1CCEF004AE69D /* JMHMainProject */,
+				A66F2A0D19C1CCEF004AE69D /* JMHMainProjectTests */,
+				A66F29E719C1CCEF004AE69D /* Frameworks */,
+				A66F29E619C1CCEF004AE69D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A66F29E619C1CCEF004AE69D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A66F29E519C1CCEF004AE69D /* JMHMainProject.app */,
+				A66F2A0619C1CCEF004AE69D /* JMHMainProjectTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A66F29E719C1CCEF004AE69D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A66F29E819C1CCEF004AE69D /* Foundation.framework */,
+				A66F29EA19C1CCEF004AE69D /* CoreGraphics.framework */,
+				A66F29EC19C1CCEF004AE69D /* UIKit.framework */,
+				A66F2A0719C1CCEF004AE69D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A66F29EE19C1CCEF004AE69D /* JMHMainProject */ = {
+			isa = PBXGroup;
+			children = (
+				A66F2A5B19C1CDD2004AE69D /* JMHName.h */,
+				A66F2A5C19C1CDD2004AE69D /* JMHName.m */,
+				A66F29F719C1CCEF004AE69D /* JMHAppDelegate.h */,
+				A66F29F819C1CCEF004AE69D /* JMHAppDelegate.m */,
+				A66F29FA19C1CCEF004AE69D /* Main.storyboard */,
+				A66F29FD19C1CCEF004AE69D /* JMHViewController.h */,
+				A66F29FE19C1CCEF004AE69D /* JMHViewController.m */,
+				A66F2A0019C1CCEF004AE69D /* Images.xcassets */,
+				A66F29EF19C1CCEF004AE69D /* Supporting Files */,
+			);
+			path = JMHMainProject;
+			sourceTree = "<group>";
+		};
+		A66F29EF19C1CCEF004AE69D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A66F29F019C1CCEF004AE69D /* JMHMainProject-Info.plist */,
+				A66F29F119C1CCEF004AE69D /* InfoPlist.strings */,
+				A66F29F419C1CCEF004AE69D /* main.m */,
+				A66F29F619C1CCEF004AE69D /* JMHMainProject-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A66F2A0D19C1CCEF004AE69D /* JMHMainProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				A66F2A1319C1CCEF004AE69D /* JMHMainProjectTests.m */,
+				A66F2A0E19C1CCEF004AE69D /* Supporting Files */,
+			);
+			path = JMHMainProjectTests;
+			sourceTree = "<group>";
+		};
+		A66F2A0E19C1CCEF004AE69D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A66F2A0F19C1CCEF004AE69D /* JMHMainProjectTests-Info.plist */,
+				A66F2A1019C1CCEF004AE69D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A66F2A5019C1CD4E004AE69D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A66F2A5519C1CD4F004AE69D /* libJMHSubProject.a */,
+				A66F2A5719C1CD4F004AE69D /* JMHSubProjectTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A66F29E419C1CCEF004AE69D /* JMHMainProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A66F2A1719C1CCEF004AE69D /* Build configuration list for PBXNativeTarget "JMHMainProject" */;
+			buildPhases = (
+				A66F29E119C1CCEF004AE69D /* Sources */,
+				A66F29E219C1CCEF004AE69D /* Frameworks */,
+				A66F29E319C1CCEF004AE69D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A66F2A6019C1D0E6004AE69D /* PBXTargetDependency */,
+			);
+			name = JMHMainProject;
+			productName = JMHMainProject;
+			productReference = A66F29E519C1CCEF004AE69D /* JMHMainProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A66F2A0519C1CCEF004AE69D /* JMHMainProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A66F2A1A19C1CCEF004AE69D /* Build configuration list for PBXNativeTarget "JMHMainProjectTests" */;
+			buildPhases = (
+				A66F2A0219C1CCEF004AE69D /* Sources */,
+				A66F2A0319C1CCEF004AE69D /* Frameworks */,
+				A66F2A0419C1CCEF004AE69D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A66F2A0C19C1CCEF004AE69D /* PBXTargetDependency */,
+			);
+			name = JMHMainProjectTests;
+			productName = JMHMainProjectTests;
+			productReference = A66F2A0619C1CCEF004AE69D /* JMHMainProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A66F29DD19C1CCEF004AE69D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JMH;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = juanmaohu;
+				TargetAttributes = {
+					A66F2A0519C1CCEF004AE69D = {
+						TestTargetID = A66F29E419C1CCEF004AE69D;
+					};
+				};
+			};
+			buildConfigurationList = A66F29E019C1CCEF004AE69D /* Build configuration list for PBXProject "JMHMainProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A66F29DC19C1CCEF004AE69D;
+			productRefGroup = A66F29E619C1CCEF004AE69D /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A66F2A5019C1CD4E004AE69D /* Products */;
+					ProjectRef = A66F2A4F19C1CD4E004AE69D /* JMHSubProject.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				A66F29E419C1CCEF004AE69D /* JMHMainProject */,
+				A66F2A0519C1CCEF004AE69D /* JMHMainProjectTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		A66F2A5519C1CD4F004AE69D /* libJMHSubProject.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libJMHSubProject.a;
+			remoteRef = A66F2A5419C1CD4F004AE69D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A66F2A5719C1CD4F004AE69D /* JMHSubProjectTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = JMHSubProjectTests.xctest;
+			remoteRef = A66F2A5619C1CD4F004AE69D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A66F29E319C1CCEF004AE69D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A66F2A0119C1CCEF004AE69D /* Images.xcassets in Resources */,
+				A66F29F319C1CCEF004AE69D /* InfoPlist.strings in Resources */,
+				A66F29FC19C1CCEF004AE69D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A66F2A0419C1CCEF004AE69D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A66F2A1219C1CCEF004AE69D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A66F29E119C1CCEF004AE69D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A66F2A5D19C1CDD2004AE69D /* JMHName.m in Sources */,
+				A66F29F919C1CCEF004AE69D /* JMHAppDelegate.m in Sources */,
+				A66F29F519C1CCEF004AE69D /* main.m in Sources */,
+				A66F29FF19C1CCEF004AE69D /* JMHViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A66F2A0219C1CCEF004AE69D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A66F2A1419C1CCEF004AE69D /* JMHMainProjectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A66F2A0C19C1CCEF004AE69D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A66F29E419C1CCEF004AE69D /* JMHMainProject */;
+			targetProxy = A66F2A0B19C1CCEF004AE69D /* PBXContainerItemProxy */;
+		};
+		A66F2A6019C1D0E6004AE69D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JMHSubProject;
+			targetProxy = A66F2A5F19C1D0E6004AE69D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A66F29F119C1CCEF004AE69D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A66F29F219C1CCEF004AE69D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A66F29FA19C1CCEF004AE69D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A66F29FB19C1CCEF004AE69D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A66F2A1019C1CCEF004AE69D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A66F2A1119C1CCEF004AE69D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A66F2A1519C1CCEF004AE69D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A66F2A1619C1CCEF004AE69D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A66F2A1819C1CCEF004AE69D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JMHMainProject/JMHMainProject-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
+				INFOPLIST_FILE = "JMHMainProject/JMHMainProject-Info.plist";
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/**";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A66F2A1919C1CCEF004AE69D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JMHMainProject/JMHMainProject-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
+				INFOPLIST_FILE = "JMHMainProject/JMHMainProject-Info.plist";
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/**";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A66F2A1B19C1CCEF004AE69D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JMHMainProject.app/JMHMainProject";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JMHMainProject/JMHMainProject-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JMHMainProjectTests/JMHMainProjectTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A66F2A1C19C1CCEF004AE69D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JMHMainProject.app/JMHMainProject";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JMHMainProject/JMHMainProject-Prefix.pch";
+				INFOPLIST_FILE = "JMHMainProjectTests/JMHMainProjectTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A66F29E019C1CCEF004AE69D /* Build configuration list for PBXProject "JMHMainProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A66F2A1519C1CCEF004AE69D /* Debug */,
+				A66F2A1619C1CCEF004AE69D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A66F2A1719C1CCEF004AE69D /* Build configuration list for PBXNativeTarget "JMHMainProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A66F2A1819C1CCEF004AE69D /* Debug */,
+				A66F2A1919C1CCEF004AE69D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A66F2A1A19C1CCEF004AE69D /* Build configuration list for PBXNativeTarget "JMHMainProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A66F2A1B19C1CCEF004AE69D /* Debug */,
+				A66F2A1C19C1CCEF004AE69D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A66F29DD19C1CCEF004AE69D /* Project object */;
+}
